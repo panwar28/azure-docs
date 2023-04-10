@@ -59,10 +59,11 @@ This solution requires a reverse proxy, such as:
 
 - F5 (Azure Marketplace; VM-based)
 - NGINXaaS (Azure Marketplace; PaaS fully managed)
+- Reverse proxy Server using NGINX marketplace image (VM-based)
 - Reverse proxy Server using NGINX (VM-based)
 - Reverse proxy Server using HAProxy (VM-based)
 
-Example of reverse proxy Server using NGINX (VM-based) configuration:
+Example of reverse proxy Server using NGINX (VM-based) configuration: This example will reverse proxy tcp traffic. 
 
 ```conf
 # Nginx.conf  
